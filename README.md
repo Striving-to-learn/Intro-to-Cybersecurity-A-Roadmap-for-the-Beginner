@@ -1,70 +1,109 @@
-# Getting Started in Cybersecurity: A Beginner's Guide
+# Intro to Cybersecurity: Beginner's Roadmap
 
 Entering cybersecurity can feel overwhelming with so many resources out there. This beginner-friendly guide simplifies your journey into technology, cybersecurity, ethical hacking, and bug bounty hunting. Use the Table of Contents below as your roadmap—start at the top and go step by step.
 
+**Want more advanced content?** Check the [full deep dive repo](https://github.com/Striving-to-learn/Cybersecurity-Resources) once you've mastered the basics.
+
 ## Table of Contents
 - [Getting Started](#getting-started)
-- [Hacking and Security Challenges](#hacking-and-security-challenges)
-- [Programming Basics](#programming)
+- [Windows Basics](#windows-basics)
 - [Linux Basics](#linux)
 - [Networking Basics](#networking)
+- [Programming Basics](#programming)
+- [Hacking and Security Challenges](#hacking-and-security-challenges)
 - [Entry-Level Certifications](#certifications)
 - [Cybersecurity Tools](#cybersecurity-tools)
 - [Communities and More](#communities-and-more)
 
 ## Getting Started
-Build a strong foundation with free, easy resources—no prior experience needed.
+**Start here** - videos first, no books yet.
 
-### Free Books and PDFs
-- [Hacker High School](https://www.hackerhighschool.org/lessons.html#info1-1o) – Fun, free lessons on basics like programming and security.
-- [Free Security eBooks](https://github.com/Hack-with-Github/Free-Security-eBooks) – Legal downloads to read at your pace.
+### Video Crash Courses
+- [Professor Messer](https://www.youtube.com/c/professormesser) – IT basics explained simply
+- [NetworkChuck](https://networkchuck.com/) – Fun tech explanations
+- [Hak5](https://www.youtube.com/channel/UC3s0BtrBJpwNDaflRSoiieQ) – Hardware hacking tips
 
-### Recommended YouTube Channels
-Start with these for simple video tutorials:
-- [Professor Messer](https://www.youtube.com/c/professormesser) – Free courses for CompTIA A+, Network+, Security+ certs.
-- [NetworkChuck](https://networkchuck.com/) – Fun networking intros.
-- [Hak5](https://www.youtube.com/channel/UC3s0BtrBJpwNDaflRSoiieQ) – Beginner hardware and hacking tips.
-- [freeCodeCamp](https://www.youtube.com/c/Freecodecamp) – Programming and cyber basics.
+### Podcasts
+- [Darknet Diaries](https://darknetdiaries.com/) – Real hacker stories
 
-### Podcasts for Beginners
-Listen while commuting or studying:
-- [Darknet Diaries](https://darknetdiaries.com/) – Real cyber stories, easy to follow.
+## Windows Basics
+**Your daily PC = your lab** (Windows is what most companies use)
 
-## Hacking and Security Challenges
-Practice safely with beginner rooms—no setup required.
-- [TryHackMe](https://tryhackme.com/) – **Highly recommended for beginners**. Free tutorials and guided challenges.
-- [HackTheBox](https://www.hackthebox.eu/) – Start with easy machines.
+### Command Prompt (CMD)
+**Open**: Win+R → `cmd`
 
-## Programming Basics
-Learn just enough to get started:
-- [freeCodeCamp](https://www.freecodecamp.org/) – Free interactive Python and web dev.
-- [Khan Academy](https://www.khanacademy.org/) – Gamified intro to coding.
+**3 Key Commands**:
+- `dir` = list files  
+- `ipconfig` = your IP address
+- `ping google.com` = test internet connection
+
+**Practice**: Run each command daily
+
+### PowerShell (Next Step)
+- TryHackMe PowerShell room (Windows advanced commands)
 
 ## Linux Basics
-Cyber pros use Linux—start simple:
-- [Linux Journey](https://linuxjourney.com/) – Step-by-step command basics.
-- [TryHackMe Linux Rooms](https://tryhackme.com/) – Hands-on practice.
+**What is Linux?** Free operating system used everywhere - servers, desktops, phones, TVs, even cars.
+
+**Think of it like this**:
+- **Windows** = popular for home/office (Word, games)
+- **Linux** = powers BOTH daily computers AND internet backbone:
+  - **96% of top 1M websites** (Google, Netflix, Amazon) run on Linux servers
+  - **77% of all web servers** worldwide
+  - **Smart TVs, Android phones, routers** = Linux inside
+  - **Cybersecurity professionals** use Kali Linux or ParrotOS for hacking tasks
+
+**Why YOU need it**:
+- Hackers attack Linux servers (90%+ of targets)
+- 70%+ of cybersecurity jobs want Linux skills
+- Companies pay more for Linux experience
+
+**Start here**:
+- [TryHackMe Linux Fundamentals](https://tryhackme.com/room/linuxfundamentalspart1)
+- Commands: `ls` (list), `cd` (change folder), `pwd` (where am I?)
 
 ## Networking Basics
-Understand how networks work:
-- [Professor Messer's Network+ Course](https://www.youtube.com/playlist?list=PLG49S3nxzAnksQpejrRxNZoRSo0pcKXkG) – Free and beginner-focused.
-- [NetworkChuck](https://networkchuck.com/) – Visual explanations of TCP/IP, OSI model.
+**What is networking?** How computers talk to each other (internet = giant network).
+
+**Why care?**
+- Hackers attack networks
+- Defenders protect networks  
+- Every cyber job needs networking
+
+**Key ideas**:
+- IP address = computer's home address
+- Port = specific door on that address
+- DNS = phonebook (name → IP)
+
+**Learn**: [Professor Messer's Network+ intro](https://www.youtube.com/playlist?list=PLG49S3nxzAnksQpejrRxNZoRSo0pcKXkG)
+
+## Programming Basics
+**Why?** Automate hacking, understand attacks
+
+**Free beginner resources**:
+- [Khan Academy Intro to Programming](https://www.khanacademy.org/computing/computer-programming) – Gamified, zero setup
+- [freeCodeCamp Python](https://www.freecodecamp.org/) – Interactive in browser
+- [Codecademy Python](https://www.codecademy.com/learn/learn-python-3) – Step-by-step lessons
+
+## Hacking and Security Challenges
+**Practice what you learned**:
+- [TryHackMe Pre-Security](https://tryhackme.com/path/outline/presecurity) – Start Room 1
 
 ## Entry-Level Certifications
-Validate your skills with affordable certs:
-- **CompTIA A+** – Hardware basics (~$300).
-- **CompTIA Network+** – Networking fundamentals (~$300).
-- **CompTIA Security+** – Intro to security (~$300).
-Use Professor Messer's free videos for all three.
+**Proof you know basics** (employers love these):
+1. **CompTIA A+** = computer hardware
+2. **CompTIA Network+** = networking  
+3. **CompTIA Security+** = cybersecurity basics
+
+Professor Messer has free videos for all 3.
 
 ## Cybersecurity Tools
-Essential free tools for beginners:
-- [Nmap](http://nmap.org/) – Network scanning.
-- [Wireshark](https://www.wireshark.org/) – Packet analysis (great for your labs).
+- **Nmap** = scan networks (find computers)
+- **Wireshark** = watch network traffic
 
 ## Communities and More
-Join friendly groups:
-- Reddit: r/netsecstudents, r/cybersecurity.
-- [TryHackMe Discord](https://tryhackme.com/) – Ask questions anytime.
+- r/netsecstudents (beginner questions welcome)
+- TryHackMe Discord (live help)
 
-**Next Steps**: Spend 1-2 weeks per section. Practice in a home lab with Kali Linux. Track progress with a notebook.
+**Ready for more?** [Deep dive into advanced topics](https://github.com/Striving-to-learn/Cybersecurity-Resources)
+
