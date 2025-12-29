@@ -40,7 +40,7 @@ Entering cybersecurity can feel overwhelming with so many resources out there. T
 **Practice**: Run each command daily
 
 ### PowerShell (Next Step)
-- TryHackMe PowerShell room [Windows Powershell Advanced commands](https://tryhackme.com/room/windowspowershell)
+- TryHackMe PowerShell room [Windows Powershell Commands Introduction](https://tryhackme.com/room/windowspowershell)
 
 ## Linux Basics
 **What is Linux?** Free operating system used everywhere - servers, desktops, phones, TVs, even cars.
