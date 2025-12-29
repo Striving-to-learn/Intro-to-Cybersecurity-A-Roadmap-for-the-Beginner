@@ -32,7 +32,7 @@ Listen while commuting or studying:
 
 ## Hacking and Security Challenges
 Practice safely with beginner rooms—no setup required.
-- [TryHackMe](https://tryhackme.com/) – **Highly recommended for beginners**. Free tutorials and guided challenges.[file:1]
+- [TryHackMe](https://tryhackme.com/) – **Highly recommended for beginners**. Free tutorials and guided challenges.
 - [HackTheBox](https://www.hackthebox.eu/) – Start with easy machines.
 
 ## Programming Basics
@@ -47,7 +47,7 @@ Cyber pros use Linux—start simple:
 
 ## Networking Basics
 Understand how networks work:
-- [Professor Messer's Network+ Course](https://www.youtube.com/playlist?list=PLG49S3nxzAnksQpejrRxNZoRSo0pcKXkG) – Free and beginner-focused.[file:1]
+- [Professor Messer's Network+ Course](https://www.youtube.com/playlist?list=PLG49S3nxzAnksQpejrRxNZoRSo0pcKXkG) – Free and beginner-focused.
 - [NetworkChuck](https://networkchuck.com/) – Visual explanations of TCP/IP, OSI model.
 
 ## Entry-Level Certifications
@@ -67,4 +67,4 @@ Join friendly groups:
 - Reddit: r/netsecstudents, r/cybersecurity.
 - [TryHackMe Discord](https://tryhackme.com/) – Ask questions anytime.
 
-**Next Steps**: Spend 1-2 weeks per section. Practice in a home lab with Kali Linux. Track progress with a notebook. This curated path avoids advanced topics like OSCP until you're ready.
+**Next Steps**: Spend 1-2 weeks per section. Practice in a home lab with Kali Linux. Track progress with a notebook.
